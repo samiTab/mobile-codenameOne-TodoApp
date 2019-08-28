@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resource majorVersion="1" minorVersion="6" useXmlUI="false">
+    <theme name="Theme">
+        <val key="@includeNativeBool" value="true" />
+        <val key="Label.padUnit" value="2,2,2,2" />
+        <val key="Label.padding" value="4,4,3,3" />
+        <val key="Title.fgColor" value="6666" />
+        <font key="Title.font" type="system" face="0" style="0" size="16" />
+        <val key="Title.transparency" value="0" />
+        <border key="ToggleButton.border" type="empty" />
+        <val key="ToggleButton.fgColor" value="cfcfcf" />
+        <border key="ToggleButton.press#border" type="empty" />
+        <val key="ToggleButton.press#derive" value="ToggleButton" />
+        <val key="ToggleButton.press#fgColor" value="6868FD" />
+        <border key="ToggleButton.sel#border" type="empty" />
+        <val key="ToggleButton.sel#derive" value="ToggleButton" />
+        <val key="ToggleButton.sel#fgColor" value="6868FD" />
+        <val key="ToggleButton.transparency" value="0" />
+        <val key="Toolbar.bgImage" value="toolbar.jpg" />
+        <val key="Toolbar.bgType" value="33" />
+        <border key="Toolbar.border" type="empty" />
+        <val key="Toolbar.fgColor" value="ffffff" />
+        <val key="Toolbar.margin" value="0,0,0,0" />
+        <val key="Toolbar.padUnit" value="2,2,2,2" />
+        <val key="Toolbar.padding" value="6,3,3,3" />
+        <val key="Toolbar.transparency" value="255" />
+        <border key="border" type="empty" />
+        <val key="derive" value="ToggleButton" />
+        <val key="dis#derive" value="Toolbar" />
+        <val key="fgColor" value="6868FD" />
+        <val key="sel#derive" value="Toolbar" />
+    </theme>
+    <image name="toolbar.jpg"  />
+</resource>
