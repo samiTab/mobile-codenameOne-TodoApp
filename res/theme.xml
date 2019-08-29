@@ -3,10 +3,17 @@
 <resource majorVersion="1" minorVersion="6" useXmlUI="false">
     <theme name="Theme">
         <val key="@includeNativeBool" value="true" />
+        <val key="Label.align" value="1" />
         <val key="Label.padUnit" value="2,2,2,2" />
         <val key="Label.padding" value="4,4,3,3" />
+        <val key="Label.sel#derive" value="Label" />
+        <val key="Title.align" value="1" />
         <val key="Title.fgColor" value="6666" />
         <font key="Title.font" type="system" face="0" style="0" size="16" />
+        <val key="Title.marUnit" value="0,2,0,0" />
+        <val key="Title.margin" value="0,0,0,0" />
+        <val key="Title.padUnit" value="0,2,0,0" />
+        <val key="Title.padding" value="0,0,0,0" />
         <val key="Title.transparency" value="0" />
         <border key="ToggleButton.border" type="empty" />
         <val key="ToggleButton.fgColor" value="cfcfcf" />
