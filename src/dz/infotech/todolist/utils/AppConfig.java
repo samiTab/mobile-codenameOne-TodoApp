@@ -7,4 +7,6 @@ public class AppConfig {
     public static final String ITEM_TEXTFIELD_UIID = "Label";
 
     public static final String DEFAULT_THEME_PATH = "/theme";
+
+    public static final String DEFAULT_STORAGE_FILE_NAME = "to-do-list-of-items";
 }

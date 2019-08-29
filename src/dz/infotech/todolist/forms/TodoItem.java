@@ -4,6 +4,7 @@ import com.codename1.ui.CheckBox;
 import com.codename1.ui.Container;
 import com.codename1.ui.FontImage;
 import com.codename1.ui.TextField;
+import com.codename1.ui.events.ActionListener;
 import com.codename1.ui.layouts.BorderLayout;
 import com.codename1.ui.plaf.Border;
 import com.codename1.ui.plaf.Style;
@@ -23,7 +24,7 @@ public class TodoItem extends Container {
     // checkbox can be toggled between selected/unselected states
     private CheckBox done = new CheckBox();
 
-    public TodoItem(String name, boolean checked) {
+    public TodoItem(String name, boolean checked, ActionListener onChange) {
         // with BorderLayout we can position a component
         super(new BorderLayout());
 
@@ -32,6 +33,10 @@ public class TodoItem extends Container {
 
         // we want the text field to look like a label
         nameText.setUIID(ITEM_TEXTFIELD_UIID);
+
+        // bind the action listener to the saver call
+        nameText.addActionListener(onChange);
+        done.addActionListener(onChange);
 
         // position the text field and the check box
         add(CENTER, nameText);

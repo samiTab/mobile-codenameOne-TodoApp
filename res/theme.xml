@@ -38,5 +38,6 @@
         <val key="fgColor" value="6868FD" />
         <val key="sel#derive" value="Toolbar" />
     </theme>
+    <legacyFont name="Title" />
     <image name="toolbar.jpg"  />
 </resource>
